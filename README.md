@@ -1,3 +1,11 @@
+This project can be seen that I broke it down into simple components that can be re-usable. If you launch the 
+App.js following the below react setup you will see I created a 
+TodoItem.jsx this is the single item span component which will be called from The App.js
+I made a TodosData.jsx to keep the todo data inside so it’s all local no JSON request on this for now
+Then I took all its props and called them in  App.js. 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
