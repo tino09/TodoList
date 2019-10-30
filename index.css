@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.todo-list{
+  background-color: white;
+  margin: auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #4409b3;
+  box-shadow:
+    0 1px 1px rgba(67, 6, 146, 0.15),
+
+    0 10px 0px -5px rgb(54, 8, 161),
+
+    0 10px 1px -4px rgba(82, 6, 180, 0.15),
+
+    0 20px 0 -10px rgb(10, 180, 87),
+
+    0 20px 1px -9px rgba(0,0,0,0.15);
+  padding: 30px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+ 
+}
+
+input [type=checkbox] {
+  margin: 5px;
+
+}
+
+.text-item{
+  padding-left: 1em;
+  margin-top: 1em;
+}
+
